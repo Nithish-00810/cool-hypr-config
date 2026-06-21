@@ -1,0 +1,12 @@
+/* HyprThemer - Rofi colors: gruvbox-dark */
+* {
+    bg:         #282828;
+    bg-alt:     #3c3836;
+    fg:         #ebdbb2;
+    fg-alt:     #ebdbb2aa;
+    accent:     #EB3D5E;
+    accent2:    #d79921;
+    urgent:     #fb4934;
+    selected:   #EB3D5E;
+    selected-fg: #282828;
+}

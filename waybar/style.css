@@ -1,0 +1,93 @@
+/* HyprThemer - Waybar theme: gruvbox-dark */
+* {
+    all: unset;
+    font-family: "Rubik", "JetBrainsMono Nerd Font";
+}
+
+tooltip {
+    background-color: #3c3836;
+    color: #ebdbb2;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.modules-center {
+    background-color: #3c3836;
+    padding: 3px 9px;
+    color: #ebdbb2;
+    border-radius: 99px;
+    min-width: 10px;
+}
+
+#clock {
+    font-weight: bold;
+    color: #EB3D5E;
+}
+
+#workspaces {
+    background-color: #504945;
+    padding: 2px 4px;
+    margin: 3px 0;
+    border-radius: 99px;
+}
+
+#workspaces button {
+    background-color: #665c54;
+    padding: 0 5px;
+    border-radius: 99px;
+    margin: 0 2px;
+    transition: all 300ms ease-in-out;
+    min-width: 1rem;
+    color: #ebdbb2;
+}
+
+#menu {
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 5px;
+    color: #EB3D5E;
+}
+
+#workspaces button.empty {
+    color: #665c54;
+}
+
+#workspaces button.active {
+    background-color: #EB3D5E;
+    color: #282828;
+    min-width: 1.9rem;
+    font-weight: 500;
+    transition: none;
+}
+
+#battery {
+    background-color: #EB3D5E;
+    margin: 6px 0;
+    padding: 0 8px;
+    border-radius: 99px;
+    font-weight: 500;
+    color: #282828;
+    letter-spacing: -1px;
+}
+
+#battery.warning {
+    background-color: #fabd2f;
+}
+
+#battery.critical {
+    background-color: #fb4934;
+    color: #ffffff;
+}
+
+#tray {
+    background-color: #3c3836;
+    color: #EB3D5E;
+    border-radius: 99px;
+    min-width: 10px;
+    margin-right: 10px;
+}
+
+#network, #pulseaudio {
+    color: #ebdbb2;
+}
